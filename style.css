@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(180deg, #0D1B2A, #212a3b);
+    color: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem{
+    height: 72px;
+}
+.cabecalho-menu{
+    display:flex;
+    gap: 32px;
+}
+.cabecalho-menu-item{
+    font-family: "Quicksand", sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+.conteudo{
+    border-top: 0.4px solid #00c3ff;
+    margin-bottom: 48px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito{
+    display:flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #E0E1DD;
+    font-weight: bold;
+}
+.conteudo-principal-escrito-sub{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(214, 214, 214);
+}
+.conteudo-principal-escrito-botao{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #00c3ff;
+    color: aliceblue;
+    width: 180px;
+    height: 60px;
+    border:none;
+    box-shadow: 0 4px 8px #005e7a;
+    border-radius: 20px
+}
+.conteudo-principal-escrito-botao:hover {
+    background-color: #006bcf;
+    cursor: pointer;
+}
+.eu-img{
+    height: 430px;
+    display: flex;
+}
+.conteudo-sobremim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    padding: 0 24px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo-sobremim-sub {
+    border-top: 0.4px solid #00c3ff;
+    padding-top: 48px;
+    font-family: "Oswald", sans-serif;
+    color: #E0E1DD;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.conteudo-sobremim-escrito {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #E0E1DD;
+    line-height: 1.6;
+    text-align: justify;
+    line-height: 1.8;
+    max-width: 800px;
+}
+
+.conteudo-portifolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 64px;
+    padding: 0 24px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo-portifolio-sub {
+    border-top: 0.4px solid #00c3ff;
+    padding-top: 48px;
+    font-family: "Oswald", sans-serif;
+    color: #E0E1DD;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.conteudo-portifolio-projeto1,
+.conteudo-portifolio-projeto2 {
+    background-color: rgba(255, 255, 255, 0.02);
+    border-left: 3px solid #00c3ff;
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 4px 10px rgba(0, 195, 255, 0.1);
+}
+
+.conteudo-portifolio-img,
+.conteudo-portifolio-img2 {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.conteudo-portifolio-subp1,
+.conteudo-portifolio-subp2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    color: #00c3ff;
+}
+
+.conteudo-portifolio-escritop1,
+.conteudo-portifolio-escritop2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    color: #E0E1DD;
+    line-height: 1.6;
+}
+.conteudo-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 64px;
+  padding: 0 24px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteudo-skills-sub {
+  border-top: 0.4px solid #00c3ff;
+  padding-top: 48px;
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #E0E1DD;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.conteudo-skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 16px;
+  border-left: 3px solid #00c3ff;
+  border-radius: 8px;
+  width: 120px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.skill-img {
+  height: 48px;
+  transition: transform 0.3s ease;
+}
+
+.skill-nome {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #E0E1DD;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 24px;
+    border-top: 0.4px solid #00c3ff;
+    margin-top: 64px;
+    background-color: #0d1b2a;
+}
+
+.rodape-contatos {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+
+.rodape-icones {
+    height: 48px;
+    transition: transform 0.3s ease;
+}
+
+.rodape-icones:hover {
+    transform: scale(1.1);
+}
+
+.rodape-reservado {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+    opacity: 0.8;
+}
