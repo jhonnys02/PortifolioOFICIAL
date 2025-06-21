@@ -162,6 +162,7 @@ html {
     width: 100%;
     border-radius: 8px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .conteudo-portifolio-subp1,
@@ -230,6 +231,7 @@ html {
 .skill-img {
   height: 48px;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .skill-nome {
@@ -257,6 +259,7 @@ html {
 .rodape-icones {
     height: 48px;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .rodape-icones:hover {
